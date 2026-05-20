@@ -1,0 +1,87 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 48px;
+  background-color: #0e4b85;
+  color: white;
+  box-shadow: 0 4px 12px rgba(14, 75, 133, 0.15);
+}
+
+.navbar-brand-title {
+  margin: 0;
+  font-size: 26px;
+}
+
+.navbar-brand-link {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-auth-group {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.navbar-link {
+  color: #e2e8f0;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.cart-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #e2e8f0;
+  text-decoration: none;
+}
+
+.cart-badge {
+  background-color: #2563eb;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 20px;
+  font-size: 12px;
+  margin: 0;
+}
+
+.login-link {
+  color: white;
+  border: 1px solid #ffffff;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.register-link {
+  color: white;
+  background-color: #2563eb;
+  border: 1px solid #2563eb;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.logout-btn {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}

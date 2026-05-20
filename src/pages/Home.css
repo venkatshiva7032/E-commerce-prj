@@ -1,0 +1,156 @@
+.home-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 60px;
+  background-color: #f8fafc;
+}
+
+/* Premium Minimalist Hero Section */
+.hero-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  background-color: white;
+  color: #0f172a;
+  padding: 30px 48px;
+  width: 100%;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.hero-content {
+  width: 45%;
+}
+
+.hero-title {
+  font-size: 36px;
+  color: #0e4b85;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-desc {
+  font-size: 15px;
+  color: #475569;
+  margin: 12px 0 20px 0;
+  padding: 0;
+}
+
+.hero-btn {
+  background-color: #2563eb;
+  color: white;
+  font-size: 15px;
+  padding: 12px 28px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(37, 99, 235, 0.15);
+  cursor: pointer;
+  margin: 0;
+  border: none;
+}
+
+.hero-image-container {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-img {
+  width: 350px;
+  height: 250px;
+  border-radius: 8px;
+}
+
+/* Products Layout */
+.home-loader {
+  padding: 80px 24px;
+  text-align: center;
+  color: #64748b;
+  width: 100%;
+}
+
+.home-loader-title {
+  font-size: 24px;
+  margin: 0;
+}
+
+.home-product-sections {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.home-section-wrapper {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+
+.section-title {
+  font-size: 26px;
+  color: #0f172a;
+  margin: 0;
+  width: 100%;
+}
+
+.section-divider {
+  width: 50px;
+  height: 4px;
+  background-color: #2563eb;
+  border-radius: 2px;
+  margin: 6px auto;
+}
+
+.section-desc {
+  font-size: 14px;
+  color: #64748b;
+  margin: 0;
+  width: 100%;
+}
+
+.products-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  width: 100%;
+}
+
+/* Custom Offers Banner styling */
+.offers-banner {
+  background-color: #e0f2fe;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(14, 75, 133, 0.05);
+  width: 100%;
+  border: 1px solid #bae6fd;
+}
+
+.offers-banner-title {
+  color: #0369a1;
+  font-size: 20px;
+  margin: 0;
+}
+
+.offers-banner-desc {
+  color: #0284c7;
+  font-size: 13px;
+  margin: 6px 0 0 0;
+}
